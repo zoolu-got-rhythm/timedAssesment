@@ -1,0 +1,30 @@
+installing mysql-server
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following extra packages will be installed:
+  libdbd-mysql-perl libdbi-perl libhtml-template-perl libmysqlclient18
+  libnet-daemon-perl libplrpc-perl libterm-readkey-perl mysql-client-5.5
+  mysql-client-core-5.5 mysql-common mysql-server-5.5 mysql-server-core-5.5
+Suggested packages:
+  libipc-sharedcache-perl tinyca mailx
+The following NEW packages will be installed:
+  libdbd-mysql-perl libdbi-perl libhtml-template-perl libmysqlclient18
+  libnet-daemon-perl libplrpc-perl libterm-readkey-perl mysql-client-5.5
+  mysql-client-core-5.5 mysql-common mysql-server mysql-server-5.5
+  mysql-server-core-5.5
+0 upgraded, 13 newly installed, 0 to remove and 4 not upgraded.
+Need to get 27.6 MB of archives.
+After this operation, 98.2 MB of additional disk space will be used.
+Get:1 http://archive.ubuntu.com/ubuntu/ precise-updates/main mysql-common all 5.5.53-0ubuntu0.12.04.1 [12.6 kB]
+Get:2 http://archive.ubuntu.com/ubuntu/ precise-updates/main libmysqlclient18 amd64 5.5.53-0ubuntu0.12.04.1 [952 kB]
+installing git and configuring settings
+Reading package lists...
+Building dependency tree...
+Reading state information...
+git is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 4 not upgraded.
+cloning northwind...
+Cloning into 'northwind'...
+creating tables and populating..
+Cloning into 'sqlExamTests'...

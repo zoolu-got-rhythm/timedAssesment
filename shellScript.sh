@@ -1,4 +1,6 @@
 echo "installing mysql-server"
+sudo debconf-set-selections <<< "mysql-server mysql-server/root_password password password"
+sudo debconf-set-selections <<< "mysql-server mysql-server/root_password_again password password"
 sudo apt-get install -y mysql-server
 echo "installing git and configuring settings"
 sudo apt-get install -y git
@@ -15,7 +17,6 @@ mysql --user=user --password=password < northwind-data.sql
 cd ..
 git clone https://github.com/zoolu-got-rhythm/sqlExamTests.git
 cd sqlExamTests
-mysql --user=user --password=password < test.sql
 
 
 
