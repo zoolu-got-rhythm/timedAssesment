@@ -15,8 +15,6 @@ echo "creating tables and populating.."
 mysql --user=user --password=password < northwind.sql
 mysql --user=user --password=password < northwind-data.sql
 cd ..
-git clone https://github.com/zoolu-got-rhythm/sqlExamTests.git
-cd sqlExamTests
 
 
 
