@@ -12,8 +12,8 @@ echo "cloning northwind..."
 git clone https://gitlab.cs.cf.ac.uk/CM6212/northwind.git
 cd northwind
 echo "creating tables and populating.."
-mysql --user=user --password=password < northwind.sql
-mysql --user=user --password=password < northwind-data.sql
+mysql --user=root --password=password < northwind.sql
+mysql --user=root --password=password < northwind-data.sql
 cd ..
 
 
